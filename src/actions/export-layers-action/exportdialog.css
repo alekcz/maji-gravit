@@ -1,0 +1,20 @@
+.g-export-layers-dialog > div > div:first-child {
+    margin-bottom: 10px; 
+}
+
+.g-export-layers-dialog div div {
+    display: flex;
+}
+
+.g-export-layers-dialog > div > div > div {
+    min-width: 45px;
+}
+
+.g-export-layers-dialog span {
+    align-self: center;
+}
+
+.g-export-layers-dialog select {
+    margin-left: 10px;
+    min-width: 120px;
+}

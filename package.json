@@ -1,0 +1,21 @@
+{
+  "name": "gravit-designer-plugin-starter",
+  "version": "1.0.0",
+  "description": "A starter template project for creating plugins for Gravit Designer",
+  "scripts": {
+    "gulp": "gulp",
+    "install": "node build.js"
+  },
+  "devDependencies": {
+    "electron-connect": "^0.6.1",
+    "electron": "^1.6.1",
+    "gulp": "^3.9.1",
+    "adm-zip": "^0.4.7",
+    "electron-window-state": "^4.0.0",
+    "electron-log": "^1.3.0",
+    "windows-shortcuts-appid": "^0.3.2"
+  },
+  "optionalDependences": {
+    "node-windows": "^0.1.14"
+  }
+}

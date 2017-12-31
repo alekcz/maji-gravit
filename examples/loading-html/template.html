@@ -1,0 +1,20 @@
+<div class="toolbar-button">
+  <button id="open-button" class="action-button" data-title="Open">
+    <span>
+      <img id="logo">
+    </span>
+  </button>
+</div>
+
+<script>
+  $('#logo')
+    .attr('src', process.cwd() + '/src/logo.png')
+    .css({
+      height: 16,
+      width: 16
+    });
+
+  $('#open-button').on('click', function() {
+      gDesigner.executeAction(GravitDesigner.actions.GOpenAction.ID);
+  });
+</script>
